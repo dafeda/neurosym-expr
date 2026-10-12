@@ -74,6 +74,9 @@ model out into uncertain areas of the model [latent space](https://en.wikipedia.
 though the program is valid syntactically, it can still be
 semantically invalid and hallucinated.
 
+The latent space of a language model is where the model represents our
+input by long sequences of numbers (or vectors).
+
 [Xgrammar](https://xgrammar.mlc.ai) provides a way to efficiently
 filter which tokens are allowed given a context-free grammar and has
 been adopted by Google, DeepSeek, NVIDIA and others.
@@ -84,7 +87,6 @@ and [structured
 output](https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses)
 is a particular instance of this technique that produces JSON that
 follows a JSON spec definition.
-
 
 [Steering vectors](https://arxiv.org/html/2502.18862v2) are another
 attempt at controlling model behaviour and preventing both
@@ -102,8 +104,7 @@ training the model through reinforcement learning to find a way to
 move the model parameters into a configuration that will answer your
 question.
 
-The latent space of a language model is where the model represents our
-input by long sequences of numbers (or vectors). Through the
+Through the
 manipulation of the latent representation of our input, the model finds
 an area in the latent space that has a high probability to answer your
 question. It then decodes this new position into a token that we can
