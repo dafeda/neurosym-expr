@@ -70,7 +70,7 @@ you can say that through the token generation the model can only
 output a next token if it continues to be a valid python program (up
 to that token). The issue with this approach is that the next valid
 python token might be a low probability token. This can take the
-model out into uncertain areas of the model latent space and even
+model out into uncertain areas of the model [latent space](https://en.wikipedia.org/wiki/Latent_space) and even
 though the program is valid syntactically, it can still be
 semantically invalid and hallucinated.
 
@@ -97,8 +97,7 @@ behaviour.
 Maybe the most general method that has been developed to reduce
 hallucination and let the model explore is "reasoning". Reasoning is
 where you train a large language model to follow a set of actions to
-search its own [latent
-space](https://en.wikipedia.org/wiki/Latent_space). This is done by
+search its own latent space. This is done by
 training the model through reinforcement learning to find a way to
 move the model parameters into a configuration that will answer your
 question.
