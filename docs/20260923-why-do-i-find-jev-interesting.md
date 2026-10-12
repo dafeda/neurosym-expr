@@ -60,8 +60,8 @@ information--especially claims that are not rooted in reality but are
 rather an effect of token probabilities, statistical uncertainty, and
 the difficult problem of making the model say "I don't know."
 
-There have been many attempt to solve this particular problem and most
-of the contemporary LLMs give you the ability to advantage of one or
+There have been many attempts to solve this particular problem and most
+of the contemporary LLMs give you the ability to take advantage of one or
 more of these techniques.
 
 A very nearby method to prevent these types of mistakes is by either
