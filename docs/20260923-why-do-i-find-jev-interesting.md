@@ -119,7 +119,7 @@ direction we need to move the parameters in to get the correct answer.
 We then move the parameters a little in that direction. In relation to
 LLMs, this is called [Supervised Fine-Tuning
 (SFT)](https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)) and
-rely on
+relies on
 [backpropagation](https://en.wikipedia.org/wiki/Backpropagation) and
 [gradient descent](https://en.wikipedia.org/wiki/Gradient_descent).
 SFT needs examples of the given task where we have annotated our
